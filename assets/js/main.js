@@ -95,7 +95,7 @@ $(document).ready(function () {
                     icons.color = "#CCF3FF";
                     bg.style.color = "#CCF3FF";
                 }
-                else if(res.weather[0].main == "Fog"){
+                else if(res.weather[0].main == "Fog" || "mist"){
                     bg.style.background = "url('./assets/img/Fog.jpg')";
                     icons.color = "#B9C1B9";
                     bg.style.color = "#B9C1B9";
