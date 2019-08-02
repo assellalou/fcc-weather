@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <div id="Err">
+        <h1>We Encountred a problem while proceessing your position.</h1>
+        <p>Please clear this site settings in your Browser and Refresh the page, if it didn't work check back later !</p>
+        <i class="fas fa-exclamation-triangle"></i>
+    </div>
+    <div class="container" id="main">
+        <div class="weather-box">
+            <div class="row1">
+                <h2 class="weather-location"></h2>
+                <canvas class="weatherType" id="icon1" width="128" height="128"></canvas>
+            </div>
+            <div class="row2">
+                <h1 class="temp"></h1>
+                <span class="temp-type">°C</span>
+            </div>
+            <h2 class="weather-description" id="weather-description"></h2>
+            <p class="made-by">Made with <i class="fas fa-heart"></i> by <span>Assellalou</span></p>
+        </div>
+    </div>
+    <script src="./assets/js/skycons.js"></script>
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
