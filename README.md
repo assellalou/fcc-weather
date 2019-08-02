@@ -1,6 +1,6 @@
 # Welcome to my Weather App! :rainbow:
-##Preview
-[Preview](https://assellalou.github.io/Weather-App/)
+
+# [Preview](https://assellalou.github.io/Weather-App/)
 
 Hi! this is a simple **Weather App** based on **FCC WEATHER API** and some **JS** running arround.
 
